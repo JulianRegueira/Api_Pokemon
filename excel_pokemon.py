@@ -8,7 +8,7 @@ wb = Workbook()
 
 ws = wb.active
 
-poke_url = 'https://pokeapi.co/api/v2/pokemon/?limit=151'
+poke_url = 'https://pokeapi.co/api/v2/pokemon/?limit=15'
 
 res = requests.get(poke_url)\
 .json()['results'] #Paso el request de la API a JSON
